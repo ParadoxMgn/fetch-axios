@@ -11,32 +11,19 @@
 </head>
 
 <body>
-    <div class="page-wrapper">
-        <div class="flex-container">
-            <div class="flex-left-block">
-                <p>Введите свое имя пользователя на GitHub</p>
-                <form>
-                    <input class="input-name js-input" type="text" name="name" placeholder="Введите свое имя GitHub">
-                    <button class="load-button js-load"> Загрузить данные</button>
-                    <button class="load-button js-load-users"> Загрузить пользователей</button>
-                </form>  
-            </div>
-            <div class="flex-right-block">
-                <p>Задание №2</p>
-                <form>
-                    <input class="input-name js-input-valid" type="text" name="name" placeholder="Введите число от 5 до 10">
-                    <button class="load-button js-load-valid">Валидация</button>
-                </form>
-                <p class="message"></p>
-                <p class="error"></p>
-            </div>
-        </div>
-        
+   <select name="select" id="select">
+    <option value="" selected disabled>Выберите цвет</option>
+    <option value="red">Красный</option>
+    <option value="yellow">Желтый</option>
+    <option value="blue">Синий</option>
+   </select>
 
-        <div class="results-container js-results">
+   <div class="block"></div>
 
-        </div>
-    </div>
+   <form action="" class="form">
+    <textarea name="textarea" id="textarea" cols="38" rows="5"></textarea>
+    <button class="btn">Очистить</button>
+   </form>
 
 </body>
 

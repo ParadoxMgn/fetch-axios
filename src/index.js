@@ -1,9 +1,6 @@
-import { scripts } from './modules/scripts';
-import { scriptsAxios } from './modules/scriptsAxios';
-import { validation } from './modules/validation';
-import { lottery } from './modules/lottery';
+import { storageColor } from './modules/storageColor';
+import { storageText } from './modules/storageText';
 
-scripts();
-scriptsAxios();
-validation();
-lottery();
+storageColor();
+storageText();
+
